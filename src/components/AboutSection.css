@@ -1,0 +1,25 @@
+.about-section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: #f0f4f8; /* bg-gray-100 equivalent */
+}
+
+.about-content {
+  max-width: 960px; /* container mx-auto px-4 equivalent */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.about-title {
+  font-size: 2.5rem; /* text-4xl equivalent */
+  font-weight: bold; /* font-bold equivalent */
+  margin-bottom: 1rem; /* mb-4 equivalent */
+}
+
+.about-description {
+  font-size: 1.125rem; /* text-lg equivalent */
+  color: #4b5563; /* text-gray-700 equivalent */
+  margin-bottom: 2rem; /* mb-8 equivalent */
+}

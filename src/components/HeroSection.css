@@ -1,0 +1,43 @@
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* h-screen equivalent */
+  background-image: url('./img/bgcover5.jpg');
+}
+
+.hero-content {
+  height: 100%; /* h-full equivalent */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-text {
+  text-align: center;
+  color: #ffffff; /* text-white equivalent */
+}
+
+.hero-title {
+  font-size: 3rem; /* text-5xl equivalent */
+  font-weight: bold; /* font-bold equivalent */
+  margin-bottom: 1rem; /* mb-4 equivalent */
+}
+
+.hero-subtitle {
+  font-size: 1.75rem; /* text-xl equivalent */
+  margin-bottom: 2rem; /* mb-8 equivalent */
+}
+
+.hero-button {
+  padding: 0.75rem 1.5rem; /* px-6 py-3 equivalent */
+  background-color: #4f46e5; /* bg-indigo-600 equivalent */
+  border-radius: 999px; /* rounded-full equivalent */
+  color: #ffffff; /* text-white equivalent */
+  font-weight: bold; /* font-semibold equivalent */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #4338ca; /* hover:bg-indigo-700 equivalent */
+}
