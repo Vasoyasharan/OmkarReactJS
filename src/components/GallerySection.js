@@ -1,11 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import './GallerySection.css';
-import southImage from '../components/img/image3.jpg';
-import southImage2 from '../components/img/image7.jpg';
-import southImage3 from '../components/img/image5.jpg';
 
-const GallerySection = () => {
+const GallerySection = ({galleryImage}) => {
   return (
     <section id="gallery" className="gallery-section">
       <div className="container">
@@ -21,15 +18,14 @@ const GallerySection = () => {
           </p>
         </motion.div>
         <div className="gallery-grid">
-          <motion.div whileHover={{ scale: 1.1 }} className="gallery-item">
-            <img src={southImage} alt="Gallery 1" className="gallery-image" />
-          </motion.div>
-          <motion.div whileHover={{ scale: 1.1 }} className="gallery-item">
-            <img src={southImage2} alt="Gallery 2" className="gallery-image" />
-          </motion.div>
-          <motion.div whileHover={{ scale: 1.1 }} className="gallery-item">
-            <img src= {southImage3} alt="Gallery 3" className="gallery-image" />
-          </motion.div>
+          {galleryImage.map((image, index) => (
+          <motion.div 
+          key={index}
+          whileHover={{ scale: 1.1 }} 
+          className="gallery-item">
+         <img src={image} alt={`Gallery ${index + 1}`} className="gallery-image" />
+         </motion.div>
+          ))}
         </div>
       </div>
     </section>

@@ -1,16 +1,16 @@
-/* Navbar.css */
+/* NavBar Styling */
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
-  color: #fff;
+  background-color: #ffffff;
+  color: #000000;
   padding: 10px 20px;
 }
 
 .navbar-logo a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -29,12 +29,12 @@
 }
 
 .navbar-links ul li a {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-size: 1rem;
   font-weight: bold;
 }
 
 .navbar-links ul li a:hover {
-  color: #ffd700; /* Example color change on hover */
+  color: #8399d4; 
 }
