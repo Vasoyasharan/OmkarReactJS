@@ -47,7 +47,6 @@ const App = () => {
     },
   ];
   const galleryImage = [image3, image5, image7];
-   // Add more images as needed.
 
 
   return (
