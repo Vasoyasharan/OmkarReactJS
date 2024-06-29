@@ -36,5 +36,3 @@ const TeamSection = ({ teamMembers }) => {
 };
 
 export default TeamSection;
-
-

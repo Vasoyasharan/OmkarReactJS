@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import './HeroSection.css'; // Import your CSS file
+import './HeroSection.css';
 
 const HeroSection = () => {
   return (

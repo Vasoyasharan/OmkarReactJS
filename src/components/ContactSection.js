@@ -5,13 +5,11 @@ import './ContactSection.css';
 
 const ContactSection = () => {
   useEffect(() => {
-    // Form validation and submission
     document
       .getElementById('contactForm')
       .addEventListener('submit', function (event) {
         event.preventDefault();
 
-        // Perform form validation
         let valid = true;
         const name = document.getElementById('name').value.trim();
         const email = document.getElementById('email').value.trim();
@@ -22,7 +20,6 @@ const ContactSection = () => {
         }
 
         if (valid) {
-          // Display success message
           Swal.fire({
             position: 'top-end',
             icon: 'success',
@@ -31,7 +28,6 @@ const ContactSection = () => {
             timer: 1500,
           });
 
-          // Reset form
           setTimeout(() => {
             document.getElementById('contactForm').reset();
           }, 1500);
