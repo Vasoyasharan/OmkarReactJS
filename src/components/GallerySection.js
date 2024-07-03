@@ -31,5 +31,4 @@ const GallerySection = ({galleryImage}) => {
     </section>
   );
 };
-
 export default GallerySection;
