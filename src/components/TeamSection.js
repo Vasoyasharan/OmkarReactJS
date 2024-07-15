@@ -1,6 +1,6 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import './TeamSection.css';
+import React from "react";
+import { motion } from "framer-motion";
+import "./TeamSection.css";
 
 const TeamSection = ({ teamMembers }) => {
   return (
@@ -24,7 +24,11 @@ const TeamSection = ({ teamMembers }) => {
               whileHover={{ scale: 1.1 }}
               className="team-member"
             >
-              <img src={member.image} alt={member.name} className="team-image" />
+              <img
+                src={member.image}
+                alt={member.name}
+                className="team-image"
+              />
               <h3 className="team-name">{member.name}</h3>
               <p className="team-role">{member.role}</p>
             </motion.div>
